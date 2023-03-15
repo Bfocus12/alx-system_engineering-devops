@@ -1,2 +1,3 @@
 #!/bin/bash
-declare -p | less; declare -F | less
+echo "$(declare -p)
+$(declare -F)" | less
